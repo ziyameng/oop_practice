@@ -1,16 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car();// create object
-        car.setMake("Porsche");
-        car.setModel("Carrera");
-        car.setDoors(2);
-        car.setConvertible(true);
-        car.setColor("black");
-
-
-        System.out.println("make = " +car.getMake());
-        System.out.println("model = " + car.getModel());
-
-        car.describeCar();
+BankAccount bobsAccount = new BankAccount();
+bobsAccount.withdrawing(100.0);
     }
 }
